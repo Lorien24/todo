@@ -1,0 +1,78 @@
+.App {
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #e7e7e7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-div {
+  background-color: white;
+  width: 100px;
+  padding: 0;
+  display: flex;
+  flex-direction: inherit;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.task {
+  width: 300px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.task:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 50px;
+  font-weight: 900;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.task-text {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.todo-input {
+  border-radius: 5px;
+  border: none;
+  width: 270px;
+  height: 50px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.add-btn {
+  background-color: #6490d3;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 50px;
+  width: 100px;
+  font-size: larger;
+  cursor: pointer;
+}
+
+input {
+  padding-left: 10px;
+  font-size: larger;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
